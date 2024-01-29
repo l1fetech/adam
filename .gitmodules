@@ -1,4 +1,4 @@
 [submodule "moses.cpp"]
-	path = llm/moses.cpp
+	path = moses.cpp
 	url = https://github.com/l1fetech/moses.cpp.git
 	shallow = true

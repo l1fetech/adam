@@ -154,7 +154,7 @@ The quantization options are as follow (from highest highest to lowest levels of
 
 ### Prerequisites
 
-Start by cloning the `moses2.cpp` repo to your machine in another directory:
+Start by cloning the `moses.cpp` repo to your machine in another directory:
 
 ```
 git clone https://lab.l1fe.tech/adam/moses.cpp.git

@@ -3,7 +3,7 @@
 set -e
 
 export VERSION=${VERSION:-$(git describe --tags --first-parent --abbrev=7 --long --dirty --always | sed -e "s/^v//g")}
-export GOFLAGS="'-ldflags=-w -s \"-X=github.com/jmorganca/adam/version.Version=$VERSION\" \"-X=github.com/jmorganca/adam/server.mode=release\"'"
+export GOFLAGS="'-ldflags=-w -s \"-X=github.com/l1fetech/adam/version.Version=$VERSION\" \"-X=github.com/l1fetech/adam/server.mode=release\"'"
 
 mkdir -p dist
 
